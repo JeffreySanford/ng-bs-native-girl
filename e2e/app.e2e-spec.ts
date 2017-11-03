@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('ng-bs-native-girls App', () => {
+describe('ng-bs-gratitude-girls App', () => {
   let page: AppPage;
 
   beforeEach(() => {
