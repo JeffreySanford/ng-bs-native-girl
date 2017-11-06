@@ -1,0 +1,17 @@
+.right-nav {
+  width: 30%;
+}
+img {
+  opacity: 0.3;
+  z-index: -1;
+}
+ul {
+  position: absolute;
+  top: 9em;
+  left: 6em;
+}
+.right-nav li {
+  color: black;
+  font-size: 2em;
+  z-index: 5;
+}

@@ -1,0 +1,54 @@
+.navbar {
+  position: relative;
+  height: 4em;
+  top: 0em;
+  right: -1em;
+  width: 100%;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 2.5em;
+}
+
+.navbar .navbar-brand {
+  float: left;
+  font-size: 2em;
+}
+.navbar .links {
+  position: fixed;
+  float: right;
+  margin-right: 0;
+  right: .1em;
+  margin-right: 1em;
+  margin-left: .1em;
+  font-size: 1.25em;
+}
+
+.social-icons {
+  position: absolute;
+  right: 3.5em;
+  bottom: .2em;
+}
+
+@media (max-width: 1000px) {
+  .navbar {
+    height: 15em;
+  }
+  img {
+    float: relative;
+  }
+  #logo{
+    position: relative;
+    width: 75px;
+    height: 75px;
+    float:left;
+  }
+
+  i {
+    margin-right: 3em;
+  }
+ }

@@ -1,0 +1,28 @@
+#navBarSupportedContent ul {
+  position: relative;
+  right: 0;
+}
+.nav-item {
+  margin: 0 .5em;
+}
+.nav-item i {
+  float: left;
+}
+
+.nav-item i:hover {
+  border-bottom: 1px solid blue;
+}
+a {
+  float: right;
+  margin-top: -.5em;
+}
+
+@media (max-width: 1000px) {
+  .navbar-nav {
+    height: 5em;
+  }
+  .nav-item i {
+    margin-right: 1.5em;
+  }
+ }
+

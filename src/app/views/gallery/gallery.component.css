@@ -1,0 +1,11 @@
+.gallery-products {
+  margin: 1em auto;
+  text-align: center;
+}
+.gallery_product img {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: 1em 1em 1.5em 1em;
+}
+
