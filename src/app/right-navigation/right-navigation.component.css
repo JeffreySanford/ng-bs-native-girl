@@ -4,6 +4,7 @@
 img {
   opacity: 0.3;
   z-index: -1;
+  margin-top: -1em;
 }
 ul {
   position: absolute;
@@ -15,3 +16,9 @@ ul {
   font-size: 2em;
   z-index: 5;
 }
+@media (max-width: 1000px) {
+  img {
+    display: none;
+  }
+}
+
