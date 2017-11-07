@@ -6,17 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navigation.component.css']
 })
 export class NavigationComponent implements OnInit {
-  public isCollapsed = false;
-  readRainbow: any;
-  constructor() {
-
-  }
+  constructor() {}
 
   ngOnInit() {
-    let unorderedList: any;
-    const readRainbow = function ($event) {
-      unorderedList = document.getElementById('navbar');
-      unorderedList.height = '6em';
+    let isActive: any;
+    const activeButton = function() {
+      isActive = !isActive;
+      console.log('here');
+      console.log(isActive);
     };
+
   }
 }

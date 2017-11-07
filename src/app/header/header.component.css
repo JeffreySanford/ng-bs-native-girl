@@ -18,7 +18,7 @@
   float: left;
   font-size: 2em;
 }
-.navbar .links {
+.navbar .menu {
   position: fixed;
   float: right;
   margin-right: 0;
@@ -37,6 +37,9 @@
 @media (max-width: 1000px) {
   .navbar {
     height: 6em;
+  }
+  .navbar .active {
+    height: 15em;
   }
   img {
     position: absolute;
@@ -60,7 +63,7 @@
     top: 0em;
   }
 
-  .navbar .links {
+  .navbar .links .active {
     position: absolute;
     float: right;
     margin-right: 0;
