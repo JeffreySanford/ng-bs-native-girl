@@ -1,6 +1,8 @@
 #navBarSupportedContent ul {
-  position: relative;
-  right: 0;
+  position: absolute;
+  float: right;
+
+  right: 1em;
 }
 .navbar-nav .nav-link {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -13,8 +15,7 @@
 }
 .icon-text {
   position: relative;
-  display: inline=block;
-  color: orange;
+  display: inline-block;
 }
 
 .nav-item i:hover {
@@ -47,7 +48,6 @@ a {
     right: 3em;
     margin-top: -1em;
     margin-left: 1em;
-    color: red;
   }
  }
 

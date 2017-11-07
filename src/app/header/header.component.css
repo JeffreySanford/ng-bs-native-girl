@@ -1,6 +1,6 @@
 .navbar {
   position: relative;
-
+  height: 4em;
   top: 0em;
   right: 0em;
   width: 100%;
@@ -19,8 +19,8 @@
   font-size: 2em;
 }
 .navbar .menu {
-  position: fixed;
-  float: right;
+  position: absolute;
+  right: 1em;
   margin-right: 1em;
   margin-left: .1em;
   font-size: 1.25em;
@@ -59,7 +59,6 @@
 
   .navbar-brand {
     font-size: .5em;
-    color: red;
     position: absolute;
     left: 2.5em;
     top: 0em;
