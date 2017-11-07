@@ -2,11 +2,19 @@
   position: relative;
   right: 0;
 }
+.navbar-nav .nav-link {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .nav-item {
   margin: 0 .5em;
 }
 .nav-item i {
   float: left;
+}
+.icon-text {
+  position: relative;
+  display: inline=block;
+  color: orange;
 }
 
 .nav-item i:hover {
@@ -18,11 +26,24 @@ a {
 }
 
 @media (max-width: 1000px) {
+
+  .navbar-collapse {
+
+}
+.navbar-collapse.collapse {
+
+}
+
   .navbar-nav {
+    margin-top: 5em;
     height: 5em;
   }
-  .nav-item i {
-    margin-right: 1.5em;
+  .icon-text {
+    position: absolute;
+    right: 3em;
+    margin-top: -1em;
+    margin-left: 1em;
+    color: red;
   }
  }
 

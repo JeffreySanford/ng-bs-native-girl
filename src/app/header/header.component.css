@@ -2,7 +2,7 @@
   position: relative;
   height: 5em;
   top: 0em;
-  right: -1em;
+  right: 0em;
   width: 100%;
 }
 
@@ -36,19 +36,37 @@
 
 @media (max-width: 1000px) {
   .navbar {
-    height: 15em;
+    height: 6em;
   }
   img {
-    float: relative;
+    position: absolute;
+
   }
-  #logo{
-    position: relative;
-    width: 75px;
-    height: 75px;
+
+  #logo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -2em;
+    left: 0em;
     float:left;
   }
 
-  i {
-    margin-right: 3em;
+  .navbar-brand {
+    font-size: .5em;
+    color: red;
+    position: absolute;
+    left: 2.5em;
+    top: 0em;
   }
- }
+
+  .navbar .links {
+    position: absolute;
+    float: right;
+    margin-right: 0;
+    right: .1em;
+    margin-right: 1em;
+    margin-left: .1em;
+    font-size: 1.25em;
+  }
+}
