@@ -3,3 +3,9 @@
   margin: 1em 1em 1em 1em;
   height: 95%;
 }
+
+@media (max-width: 1000px) {
+  #router-view {
+    margin-top: -28em;
+  }
+}
