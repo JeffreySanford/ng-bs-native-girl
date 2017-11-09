@@ -2,6 +2,12 @@
   margin: 1em auto;
   text-align: center;
 }
+
+.call-to-action {
+  position: absolute;
+  bottom: 8em;
+  right: 1em;
+}
 .gallery-catagory img {
   text-align: center;
   width: 100px;
@@ -19,6 +25,12 @@ p {
       left: .5em;
      font-size: 3em;
    }
+   .call-to-action {
+    position: absolute;
+    top: 12em;
+    right: -6em;
+  }
+
    p {
     position: absolute;
     top: 3em;
