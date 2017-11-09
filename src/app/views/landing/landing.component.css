@@ -1,0 +1,26 @@
+.jumbotron {
+
+}
+.jumbotron img {
+  position: absolute;
+  width: 200px;
+  height: 400px;
+  margin-top: -3em;
+  right: 0em;
+  z-index: 2;
+}
+.jumbotron p {
+  color: black;
+  margin-right: 1em;
+}
+
+.jumbotron .call-to-action {
+  bottom: 1em;
+  right: 1em;
+}
+
+#subscribe-maillist {
+  position: absolute;
+  bottom: -13em;
+  left: 50%;
+}

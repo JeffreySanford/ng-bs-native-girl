@@ -28,21 +28,14 @@ a {
 
 @media (max-width: 1000px) {
 
-:not(.navbar-collapse)   {
-
-}
-:not(.navbar-collapse.collapse) {
-}
-.navbar-collapse.collapse {
-
-}
-.active {
-  display: relative;
-}
+  .active {
+    display: relative;
+  }
   .navbar-nav {
     margin-top: 5em;
     height: 15em;
   }
+
   .icon-text {
     position: absolute;
     right: 3em;

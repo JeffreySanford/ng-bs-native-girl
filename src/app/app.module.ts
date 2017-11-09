@@ -1,4 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { trigger, state } from '@angular/animations';
+
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -44,11 +47,12 @@ const appRoutes: Routes = [
   ],
   imports: [
     NgbModule.forRoot(),
+    BrowserModule,
+    BrowserAnimationsModule,
     RouterModule.forRoot(
       appRoutes
       // { enableTracing: true } // <-- debugging purposes only
-    ),
-    BrowserModule
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]
