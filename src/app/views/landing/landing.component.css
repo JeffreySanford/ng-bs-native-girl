@@ -1,5 +1,9 @@
 .jumbotron {
-
+  background: rgba(247,	247,	247, 0.6);
+}
+.jumbotron .on-top {
+  position: relative;
+  opacity:1;
 }
 .jumbotron img {
   position: absolute;
@@ -12,6 +16,7 @@
 .jumbotron p {
   color: black;
   margin-right: 1em;
+  font-size: 1.5em;
 }
 
 .jumbotron .call-to-action {

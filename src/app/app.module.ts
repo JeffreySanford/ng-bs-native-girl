@@ -29,7 +29,8 @@ const appRoutes: Routes = [
     component: GalleryComponent
   },
   { path: 'gallery/:id', component: GalleryItemComponent },
-  { path: 'contact', component: ContactComponent }
+  { path: 'contact', component: ContactComponent },
+  { path: '', redirectTo: '/landing', pathMatch: 'full'},
 ];
 @NgModule({
   declarations: [
